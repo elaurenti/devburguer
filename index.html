@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/responsive.css" />
+    <link rel="stylesheet" href="./src/style.css" />
+    <link rel="stylesheet" href="./src/global.css" />
+
+    <link rel="shortcut icon" href="./src/img/icon/android-chrome-192x192.png" type="image/x-icon"/>
+    <link rel="shortcut icon" href="./src/img/icon/android-chrome-512x512.png" type="image/x-icon"/>
+    <link rel="shortcut icon" href="./src/img/icon/apple-touch-icon.png" type="image/x-icon"/>
+    <link rel="shortcut icon" href="./src/img/icon/favicon-16x16.png" type="image/x-icon"/>
+    <link rel="shortcut icon" href="./src/img/icon/favicon-32x32.png" type="image/x-icon"/>
+    <link rel="shortcut icon" href="./src/img/icon/favicon.ico" type="image/x-icon"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+   
+    <title>DevBurguer</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <a href="#" class="logo">
+        <img src="./src/img/logo-hamburguer.png" alt="logo da hamburgueria DevBurguer"/>
+        DEV<span>BURGUER</span>
+    </a>    
+    <li>
+      <ul><a href="#">HOME</a></ul>
+      <ul><a href="#">PROMOÇÕES</a></ul>
+      <ul><a href="#">CARDÁPIO</a></ul>
+      <ul><a href="#">CONTATO</a></ul>
+      <ul><a href="#" class="carrinho"><i class="fa-solid fa-basket-shopping"></i></i></a></ul>
+      <ul><a href="#" class="checkin"><i class="fa-solid fa-circle-user"></i></a></ul>
+      <ul><a href="#" class="checkout"><i class="fa-solid fa-right-from-bracket"></i></a></ul>
+    </li>
+</nav>
+    <header class="header">
+    <div class="container-header">
+    <h1>Confort <span>Food</span> with L<span>o</span>ve</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio facilis est repudiandae perferendis quasi. Natus at tempore, dolorum reiciendis voluptatibus ab, veritatis molestiae praesentium sint consequuntur cupiditate quae. Pariatur, veritatis.</p>
+  <div class="btn-header">
+    <button > Order Now</button>
+    <button>Download App</button>
+  </div>
+  </div>
+    <div class="header-img">
+      <img src="./src/img/imagem.png" alt="hamburguer desconstruido">
+    </div>
+</header>
+<main>
+  <div class="functions">
+    <button class="newBurguer" id="forEachBtn">forEach</button>
+    <button class="Map" id="mapBtn">Map</button>
+    <button class="Reduce" id="reduceBtn">Reduce</button>
+    <button class="Filter" id="filterBtn">Filter</button>    
+  </div>
+  <h2>Escolha e Aproveite!</h2>
+  <section class="container-card">
+    <div class="card">
+      <img src="./src/img/bacon-egg.png" alt="Bacon Egg Burguer">
+      <h3>Bacon Egg</h3>
+      <p class="price">R$32,90</p>
+      <button class="button-card"><i class="fa-solid fa-cart-shopping"></i></button>
+    </div>
+    <div class="card">
+      <img src="./src/img/salad-burguer.png" alt="Salad Burguer">
+      <h3>Salad Burguer</h3>
+      <p class="price">R$25,00</p>
+      <button class="button-card"><i class="fa-solid fa-cart-shopping"></i></button>
+    </div>
+    <div class="card">
+      <img src="./src/img/magnific-salad.png" alt="Magnific Salad Burguer">
+      <h3>Magnific Salad</h3>
+      <p class="price">R$36,90</p>
+      <button class="button-card"><i class="fa-solid fa-cart-shopping"></i></button>
+    </div>
+  </section>
+</main>
+<div class="loader-container">
+  <img src="./src/img/loader-2.gif" alt="burguer loanding">
+</div>
+    <footer>
+      <div class="footer-container">
+        <div class="social-icons">
+          <a href=""><i class="fa-brands fa-facebook"></i></a>
+          <a href=""><i class="fa-brands fa-instagram"></i></a>
+          <a href=""><i class="fa-brands fa-youtube"></i></a>
+          <a href=""><i class="fa-brands fa-twitter"></i></a>
+        </div>
+      <div class="footer-bottom">
+        <p>Copyright &copy;2023; Designed by <span>EveC0der</span></p>
+      </div>
+      </div>
+       </footer>
+  </body>
+  <script src="https://kit.fontawesome.com/64aae8112b.js" crossorigin="anonymous"></script>
+  <script src="./src/products.js"></script>
+  <script src="./src/index.js"></script>
+</html>
